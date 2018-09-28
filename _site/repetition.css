@@ -1,0 +1,19 @@
+html {
+  box-sizing: border-box; }
+
+* {
+  box-sizing: inherit; }
+
+img {
+  max-width: 100%; }
+
+.Post {
+  width: 90%;
+  max-width: 50em;
+  margin: 10px auto;
+  padding: 10px;
+  background: #eee;
+  border: 1px solid #ccc;
+  border-radius: 5px; }
+  .Post img {
+    margin: 0 auto; }
