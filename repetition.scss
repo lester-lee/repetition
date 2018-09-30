@@ -16,6 +16,7 @@ img { max-width: 100%; }
   background: $post-bg;
   border: 1px solid $post-border;
   border-radius: 5px;
+  display: flex;
   img {
     margin: 0 auto;
   }
