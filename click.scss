@@ -1,0 +1,24 @@
+---
+---
+body{
+  display: flex;
+  align-items: center;
+}
+
+.Button{
+  background: #3981c4;
+  width: 5em;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  border-radius: .5em;
+  color: white;
+  display: flow;
+  text-align: center;
+  padding: .5em;
+  border: 5px solid white;
+  &:hover{
+    background: #69aae7;
+    cursor: pointer;
+  }
+}

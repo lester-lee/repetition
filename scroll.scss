@@ -1,0 +1,23 @@
+---
+---
+$post-bg: #eee;
+$post-border: #ccc;
+
+html{ box-sizing: border-box;}
+* {box-sizing: inherit;}
+
+img { max-width: 100%; }
+
+.Post{
+  width: 90%;
+  max-width: 50em;
+  margin: 10px auto;
+  padding: 10px;
+  background: $post-bg;
+  border: 1px solid $post-border;
+  border-radius: 5px;
+  display: flex;
+  img {
+    margin: 0 auto;
+  }
+}
