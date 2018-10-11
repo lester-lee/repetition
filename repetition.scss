@@ -1,16 +1,37 @@
 ---
 ---
-html{
+html {
   box-sizing: border-box;
 }
-*{
+
+* {
   box-sizing: inherit;
 }
-body{
+
+body {
   display: flex;
-  justify-content: center;
   align-items: center;
-  height: 100vh;
+  justify-content: center;
   margin: 0;
-  flex-flow: column;
+  height: 100vh;
+}
+
+.ButtonWrapper {
+  width: 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.Button {
+  width: 44px;
+  height: 44px;
+  margin: 1em 0;
+  justify-self: center;
+  box-shadow: 0 0 1.5em 4px black;
+  transition: all .5s;
+
+  &:hover {
+    cursor: pointer;
+  }
 }
