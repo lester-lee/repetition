@@ -23,6 +23,9 @@ body {
   margin: 1em 0;
   justify-self: center;
   box-shadow: 0 0 1.5em 4px black;
-  transition: all .5s; }
+  transition: all .5s;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
   .Button:hover {
     cursor: pointer; }
