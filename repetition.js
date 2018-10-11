@@ -34,20 +34,18 @@ function replaceColors() {
 }
 
 $(function () {
-  let repeated = false;
+  let hit44 = false;
+  let hit88 = false;
   replaceColors();
   $buttons.on('click', function(){
     numClicks++;
-    if (numClicks === 11){
-      alert('Hello.');
-    }
-    if (numClicks === 44 && !repeated){
+    if (numClicks === 44 && !hit44){
       numClicks = 40;
-      repeated = true;
+      hit44 = true;
     }
-    if (numClicks === 88){
-      alert();
+    if (numClicks === 89 && !hit88){
       numClicks = 0;
+      hit88 = true;
     }
     replaceColors();
   });
